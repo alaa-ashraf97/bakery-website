@@ -1,0 +1,641 @@
+/** general styles */
+a,
+span {
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** hero section styles */
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-section {
+    background: url(./images/drew-coffman-1872.jpg) no-repeat center center/cover border-box fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 90px;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.nav-left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    text-align: left;
+    font-size: initial;
+}
+
+#logo {
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.nav-right {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: calc(100% - 200px);
+    font-size: initial;
+}
+
+.nav-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.nav-right li {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 30px;
+    cursor: pointer;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    border-top: 3px solid #ae9768;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+
+}
+
+span {
+    color: #fff;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.content p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.content h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 76px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.button-active,
+.button-unactive {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 12px 25px;
+    margin: 20px 10px;
+
+
+}
+
+.button-active {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+
+.button-unactive {
+    background-color: transparent;
+
+}
+
+/** (Who we are) section styles */
+.Who-we-are {
+    height: 600px;
+    width: 100%;
+    padding-block: 90px 60px;
+}
+
+.img-wwa {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+}
+
+.img-wwa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-wwa {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    vertical-align: top;
+    padding-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.text-wwa {
+    display: inline-block;
+}
+
+.text-wwa h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #303030;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.text-wwa p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #686868;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.list-wwa {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    list-style: none;
+
+}
+
+.list-wwa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.img-list {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.list-wwa li {
+    text-align: left;
+    font-family: "Cairo", sans-serif;
+    color: #686868;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.img-list img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.list-text {
+    color: #686868;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 400px;
+    padding-left: 15px;
+}
+
+/** (Our Location) section styles */
+.Our-Location {
+    height: 600px;
+    width: 100%;
+    padding-block: 90px 60px;
+    background-color: #f8f8f8;
+}
+
+.img-ol {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+}
+
+.img-ol img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-ol {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    vertical-align: top;
+    padding-top: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.text-ol {
+    display: inline-block;
+}
+
+.text-ol h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #303030;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.text-ol p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #686868;
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 1.6;
+}
+
+/** (Our bakery) section styles */
+.Our-baking {
+    height: 900px;
+    width: 100%;
+    padding-block: 90px 60px;
+    text-align: center;
+}
+
+.content-ob {
+    padding-top: 90px;
+    margin: 0px;
+    text-align: center;
+}
+
+.text-ob h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #303030;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.text-ob p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #686868;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.baking-cards {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.card {
+    float: left;
+    width: 32%;
+    height: auto;
+    text-align: center;
+    margin-inline: 5px;
+    padding-bottom: 50px;
+}
+
+.card>img {
+    width: 100%;
+    height: auto;
+}
+
+.card>h3 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #303030;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card>p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #686868;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.clear {
+    clear: left;
+}
+
+.card1 {
+    margin-left: auto;
+}
+
+.card2 {
+    margin-inline: 19px;
+}
+
+.card3 {
+    margin-right: auto;
+}
+
+/** (Contact Information) section styles */
+.Contact-Information {
+    height: auto;
+    width: 100%;
+    padding-block: 90px 60px;
+    background-color: #f8f8f8;
+}
+
+.content-ci {
+    float: left;
+    width: 600px;
+    height: auto;
+    vertical-align: top;
+    padding-top: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.text-ci {
+    display: inline-block;
+}
+
+.text-ci h2 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #303030;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.text-ci p {
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #686868;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.list-ci {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.list-ci ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-ci li {
+    text-align: left;
+    font-family: "Cairo", sans-serif;
+    color: #686868;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.list-text {
+    color: #686868;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 400px;
+    padding-left: 15px;
+}
+
+.maps {
+    float: left;
+    width: 600px;
+    height: 450px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-list2 {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #8e7754;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+.img-list2 img {
+    width: 31px;
+    height: 31px;
+    vertical-align: middle;
+}
+
+/** (footer) section styles */
+.footer {
+    text-align: center;
+    padding-block: .25px;
+    background-color: #353330;
+}
+
+.footer-main {
+    background-color: rgb(64, 61, 56);
+    text-align: center;
+    width: 100%;
+    padding-block: 90px 60px;
+}
+
+.footer_overlay {
+    background-image: url(./images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: 88%;
+}
+
+.footer_overlay-2 {
+    background-color: rgba(64, 61, 56, 0.9);
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    margin-inline: -18px;
+}
+
+.col {
+    width: 25%;
+    text-align: left;
+    float: left;
+    padding-inline: 18px;
+}
+
+.col p {
+    color: #969696;
+    text-align: justify;
+    font-family: "Cairo", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p.title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p.p {
+    color: #969696;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.col ul {
+    padding-block: 0.25px;
+}
+
+.col li {
+    color: #969696;
+    text-align: left;
+    font-family: "Cairo", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+    border-bottom: .5px #969696 solid;
+}
+
+.col i {
+    text-align: top;
+    padding-right: 10px;
+}
+
+.col li.last {
+    border-bottom: none;
+}
+
+.col-last li {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.fa-location-dot-2 {
+    color: rgba(0, 0, 0, 0);
+}
+
+.fa-solid {
+    color: #969696;
+    size: 1px;
+    text-align: center;
+}
+
+.fotter-bottom {
+    background-color: #353330;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-info {
+    background-color: #353330;
+    text-align: center;
+    width: 100%;
+    padding-block: 90px 60px;
+}
+
+.footer-info p {
+    color: #969696;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.logo {
+    background-color: #484540;
+    border-radius: 100%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-inline: 5px;
+}
+
+.fa-brands {
+    color: #969696;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
